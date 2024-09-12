@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background-color:burlywood;
+    color: whitesmoke;
+    padding: 15px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header nav ul {
+    padding: 0;
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: black;
+    text-decoration: navajowhite;
+    font-weight: bold;
+}
+
+.hero {
+    background: url('C:\Users\utilisteur\Pictures\IMG-20240828-WA0046.jpg') no-repeat center center/cover;
+    height: 400px;
+    color:none;
+    text-align: center;
+    padding-top: 150px;
+}
+
+.hero .btn {
+    background:maroon;
+    padding: 10px 20px;
+    color: pink;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.about, .services {
+    padding: 20px 0;
+    background: whitesmoke;
+    text-align: center;
+}
+
+.about img {
+    width: 100%;
+    height: auto;
+    margin-top: 40px;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+.video-grid{
+    display: grid;
+    grid-template-columns:repeat(auto-fil,minmax(320px, 1fr));
+    gap:20px;
+}
+video{
+    width:"320";
+    height: "240";
+    border:2px solid white;
+    border-radius:10px;
+    transition:transformer 0.3 ease;
+}
+video:hover{
+    transform:scale(1.05);
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.7);
+}
